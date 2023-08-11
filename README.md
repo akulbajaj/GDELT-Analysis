@@ -18,7 +18,7 @@ Leveraged the event database to identify likely event occurrences. Visualized ev
 Inputs read from GCP bucket: "GDELT.MASTERREDUCEDV2.TXT"
 Website origin of data: https://www.gdeltproject.org/
 
-##Key Code Snippets:
+## Key Code Snippets:
 
 Data parsing and transformation using Python and Spark RDDs.
 Utilized functions for column retrieval, timestamp conversion, and data type conversion.
