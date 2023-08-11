@@ -4,8 +4,11 @@ Explore empathetic comments' origins using GDELT data from GDELT Project via Dat
 
 ## Cluster Setting:
 Multi Node, No Isolation Shared
+
 Runtime: 11.0
+
 Worker/Driver Type: e2-highmem-2
+
 (Min Workers: 1, Max Workers: 6 with autoscaling)
 
 ## Code Optimization:
@@ -16,10 +19,13 @@ Leveraged the event database to identify likely event occurrences. Visualized ev
 
 ## Input Data:
 Inputs read from GCP bucket: "GDELT.MASTERREDUCEDV2.TXT"
+
 Website origin of data: https://www.gdeltproject.org/
 
 ## Key Code Snippets:
 
 Data parsing and transformation using Python and Spark RDDs.
+
 Utilized functions for column retrieval, timestamp conversion, and data type conversion.
+
 For detailed code and visualizations, refer to the notebook.
